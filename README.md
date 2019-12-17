@@ -20,7 +20,6 @@ or
 
 ```
 yarn install
-
 ```
 3. Boot the app
 
