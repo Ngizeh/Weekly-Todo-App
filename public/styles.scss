@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+}
+
+#app {
+  height: inherit;
+  background: #6e6e6e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+#calendar-week {
+  margin-bottom: 50px;
+  .column {
+    padding: 0 0 0 0;
+  }
+
+  .day {
+    background-color: #4A4A4A;
+    color: #FFF;
+    border-left: 1px solid #8F8F8F;
+    border-bottom: 1px solid #8F8F8F;
+    font-size: 12px;
+    cursor: pointer;
+
+    &:hover {
+      background: darken(#4A4A4A,3%);
+    }
+
+    .day-banner {
+      background-color: #333333;
+      color: #FFF;
+      padding: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .day-details {
+      padding: 10px;
+
+      .day-event {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        display: block;
+        color: #4C4C4C;
+        padding: 5px;
+
+        .details {
+          display: block;
+        }
+
+        .icons .fa {
+          padding: 0 2px;
+        }
+
+        input {
+          background: none;
+          border: 0;
+          border-bottom: 1px solid #FFF;
+          width: 100%;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+
+    &:last-child {
+      border-right: 1px solid #8F8F8F;
+    }
+  }
+}
+
+#calendar-entry {
+  background: #FFF;
+  border: 1px solid #42b883;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .calendar-entry-note {
+    input {
+      width: 200px;
+      font-weight: 600;
+      border: 0;
+      border-bottom: 1px solid #CCC;
+      font-size: 15px;
+      height: 30px;
+      margin-bottom: 10px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .calendar-entry-day {
+      color: #42b883;
+      font-size: 12px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+
+      .bold {
+        font-weight: 600;
+      }
+    }
+
+    .submit {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
