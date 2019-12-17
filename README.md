@@ -21,7 +21,7 @@ or
 ```
 yarn install
 ```
-3. Boot the app
+Finally Boot the app
 
 ````
 npm run serve
