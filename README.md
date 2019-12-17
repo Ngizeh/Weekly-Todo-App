@@ -1,9 +1,12 @@
 # Fullstack Vue
 
-## Single-file components - Calendar App
+## Single-file components - Weekly Todo App
+
+Priview of the Finished App
 
 ![](/src/assets/images/homepage.png)
-Format: ![Alt Text](url)
+
+
 
 1. Ensure you have `npm` or `yarn` installed.
 
