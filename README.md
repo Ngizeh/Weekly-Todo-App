@@ -2,7 +2,7 @@
 
 ## Single-file components - Weekly Todo App
 
-Priview of the Finished App
+Preview of the Finished App
 
 ![](/src/assets/images/homepage.png)
 
