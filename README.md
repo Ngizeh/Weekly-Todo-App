@@ -12,22 +12,11 @@ Preview of the Finished App
 
 2. Install the dependencies
 
-````
-npm install
-````
-
-or
-
 ```
 yarn install
 ```
+
 Finally Boot the app
-
-````
-npm run serve
-````
-
-or
 
 ```
 yarn serve

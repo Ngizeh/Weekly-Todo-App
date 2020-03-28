@@ -1,7 +1,7 @@
 <template>
     <div id="calendar-week" class="container">
       <div class="columns is-mobile">
-        <CalendarDay v-for="day in sharedState.seedData" :day="day" />
+        <CalendarDay v-for="(day, index) in sharedState.seedData" :day="day" :key="index"/>
       </div>
     </div>
 </template>
