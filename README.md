@@ -16,7 +16,7 @@ Preview of the Finished App
 yarn install
 ```
 
-Finally Boot the app
+3. Finally Boot the app
 
 ```
 yarn serve
