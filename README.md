@@ -8,7 +8,7 @@ Preview of the Finished App
 
 
 
-1. Ensure you have `npm` or `yarn` installed.
+1. Ensure you have `yarn` installed.
 
 2. Install the dependencies
 
