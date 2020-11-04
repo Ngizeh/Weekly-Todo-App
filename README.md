@@ -2,6 +2,10 @@
 
 ## Single-file components - Weekly Todo App
 
+Live Preview of the finished App
+
+Check [Here](https://weekly-todo-app.vercel.app/).
+
 Preview of the Finished App
 
 ![](/src/assets/images/homepage.png)
